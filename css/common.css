@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: 'TAEBAEKmilkyway';
+word-break: keep-all;
+padding-top: 80px;
+
+}
+
+img{
+  display: block;
+}
+
+.p-title{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.0;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub-title{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.0;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn{
+  max-width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 650;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.1s;
+}
+
+.btn-blue{
+  background-color:#045FB4 ;
+  color: white;
+}
+
+.small{
+  max-width: 350px;
+  height: 70px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 640px) {
+  body {
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .page-title {
+    font-size: 40px;
+  }
+  .btn {
+    font-size: 34px;
+  }
+}
